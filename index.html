@@ -46,7 +46,6 @@
           background-repeat: no-repeat;
       }
 
-
       ul.arrow {
         list-style-type: none;
         padding: 0px;
@@ -101,6 +100,34 @@
         padding-top: 20px;
       }
 
+      .circled {
+        position: relative;
+      }
+
+      .circled:after {
+        border: .25em solid #fbd2d8;
+        border-top: none;
+        border-radius: 1.5em 1em 2em 1.5em;
+        bottom: -.3em;
+        content: '';
+        left: -.3em;
+        position: absolute;
+        right: -.3em;
+        top: -.1em;
+      }
+
+      .circled:before {
+        border-top: .25em solid #fbd2d8;
+        border-radius: .5em;
+        content: '';
+        height: 1em;
+        left: 0;
+        position: absolute;
+        top: -.3em;
+        transform: rotate(-10deg);
+        width: 2em;
+      }
+
     </style>
   </head>
   <body>
@@ -114,7 +141,7 @@
            <img style= "height: 450px; width: 300px; display: block; margin: 0 auto; box-shadow: 10px 10px 5px #888888;" src="http://maddymoon.com/wp-content/uploads/2015/10/DSC_9195.jpg"/>
            <p>After practicing self-care rituals day after day, I realized something else was <strong>missing</strong> from my life. Something <strong>bigger</strong> than anything I had been doing.</p>
            <p>Everyone kept telling me to <em>search</em> within to find all of the answers. But I found the <em>more</em> I searched within, the <em>less</em> I found what I really needed.</p>
-      <h1>...until I realized it was God that was missing from my "healing" process.</h2>
+      <h2>...until I realized it was <span class="circled">God</span> that was missing from my "healing" process.</h2>
       <img style="height: 450px; width: 300px; display: block; margin: 0 auto; box-shadow: 10px 10px 5px #888888" src="http://maddymoon.com/wp-content/uploads/2015/10/journaling.jpeg">
     </div>
     <div class="centered-block">
@@ -132,7 +159,7 @@
     </div>
     <img style="height: 416px; width: 900px; display: block; margin: 0 auto;" src="http://maddymoon.com/wp-content/uploads/2015/10/LOGO-e1446145652994.png">
     <div class="centered-block">
-      <h1 style= "font-size: 35px;"><em>This program is for you if:</em></h1>
+      <h1 style= "font-size: 35px; text-align: center"><em>This program is for you if:</em></h1>
       <ul class='arrow'>
           <li><i class="fa fa-arrow-right"></i>You're exhausted from constant food anxiety that creeps up before, during and after every meal</li>
           <li><i class="fa fa-arrow-right"></i>You're emotionally done with having to compensate for calories with exercise</li>
@@ -234,6 +261,7 @@
         <img style= "height: 300px; width: 300px; display: block; margin: 0 auto;" src= "http://maddymoon.com/wp-content/uploads/2015/10/IMG_0959-1170x600-e1446133978917.jpg">
           <h2>Elle Griffin</h2>
           <p>Elle Griffin is the founder & editor-in-chief of Over The Moon Magazine and host of Over The Moon Radio. She is a writer, speaker, and scholar of the Divine Feminine; and she adores hosting full-moon parties and writing young adult fiction novels.</h2>
+        <div class="topmargin"></div>
         <img style= "height: 300px; width: 300px; display: block; margin: 0 auto;" src= "http://maddymoon.com/wp-content/uploads/2015/10/headshot-e1446134434894.jpg">
           <h2>Laura Schoenfeld</h2>
           <p>Laura is a Registered Dietitian trained in integrative nutritional therapy for the management of chronic disease. She is passionate about making traditional diets healthful and accessible for all of her clients. While she typically uses an ancestral template when making recommendations, she also recognises the importance of individual health goals, unique genetic variations, and personal preference in choosing a health supporting diet and lifestyle program.</p>
