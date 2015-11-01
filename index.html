@@ -1,9 +1,12 @@
 <html>
   <head>
-    <title>Maddy Moons Program</title>
+    <title>Scripture, Food, and Healing by Maddy Moon</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link href='https://fonts.googleapis.com/css?family=Libre+Baskerville' rel='stylesheet' type='text/css'>
-
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet" type="text/css">
+    <link href="css/buttons.css" rel="stylesheet" type="text/css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="jquery.collapse.js"></script>
+    <script src="/js/collapsible.min.js"></script>
 <!-- Todo add web fonts -->
     <style>
       body {
@@ -96,6 +99,10 @@
         width: 30%;
       }
 
+      .float-box div i {
+        font-size: 60px;
+      }
+
       .topmargin {
         padding-top: 20px;
       }
@@ -131,20 +138,21 @@
       .button {
         display: block;
         height: 50px;
-        width: 200px;
-        background: #e2f2ff;
+        background: #fbd2d8;
         border: 2px solid rgba(33, 68, 72, 0.59);
-        color: rgba(0, 0, 0, 0.55);
+        color: #888888;
+        /*box-shadow: 10px 5px 5px #888888;*/
+        font: 30px 'Verdana';
+        line-height: 50px;
+        margin: 0 auto;
         text-align: center;
-        font: italic 35px/100px 'Libre Baskerville';
-        box-shadow: 10px 5px 5px #888888;
+        text-decoration: none;
+        width: 40%;
       }
 
-      a.button {
-    text-decoration: none;
+      .im-ready-button {
+        display: block;
       }
-
-
     </style>
   </head>
   <body>
@@ -159,7 +167,7 @@
            <p>After practicing self-care rituals day after day, I realized something else was <strong>missing</strong> from my life. Something <strong>bigger</strong> than anything I had been doing.</p>
            <p>Everyone kept telling me to <em>search</em> within to find all of the answers. But I found the <em>more</em> I searched within, the <em>less</em> I found what I really needed.</p>
       <h2>...until I realized it was <span class="circled">God</span> that was missing from my "healing" process.</h2>
-      <img style="height: 450px; width: 300px; display: block; margin: 0 auto; box-shadow: 10px 10px 5px #888888" src="http://maddymoon.com/wp-content/uploads/2015/10/journaling.jpeg">
+      <img style="height: 450px; width: 300px; display: block; margin: 10px auto 50px auto; box-shadow: 10px 10px 5px #888888" src="http://maddymoon.com/wp-content/uploads/2015/10/journaling.jpeg">
     </div>
     <div class="centered-block">
       <p><strong>From that day on, I started praying daily that God would change my heart.</strong> I didn't pray that I would change my <em>own</em> heart, because I knew <em>that</em> wasn't going to happen. Only He could do it because only He could fill the empty space in my heart that I was trying to fill with food, perfectionism and my body image.</p>
@@ -282,8 +290,12 @@
         <img style= "height: 300px; width: 300px; display: block; margin: 0 auto;" src= "http://maddymoon.com/wp-content/uploads/2015/10/headshot-e1446134434894.jpg">
           <h2>Laura Schoenfeld</h2>
           <p>Laura is a Registered Dietitian trained in integrative nutritional therapy for the management of chronic disease. She is passionate about making traditional diets healthful and accessible for all of her clients. While she typically uses an ancestral template when making recommendations, she also recognises the importance of individual health goals, unique genetic variations, and personal preference in choosing a health supporting diet and lifestyle program.</p>
+        <div class="topmargin"></div>
+        <img style= "height: 300px; width: 300px; display: block; margin: 0 auto;" src= "http://maddymoon.com/wp-content/uploads/2015/11/image00.jpg">
+          <h2>Audra Dennison</h2>
+          <p>Audra is the girl behind “This Girl Audra!” She’s just your typical, every day girl who’s been through it all when it comes to diets, hormones, exercise, and finding a healthy balance with food. By the grace of God, she was lead to a high-carb vegan diet, full of nourishing foods and carbohydrates, free from guilt and deprivation. Every day is a “cheat day” for her with the delicious high carb foods she gets to eat! Her goal is to spread the news that hating your body, your exercise routine, and your restrictive diet isn’t necessary, nor glorifying to God: there’s more to life than food! By changing the way you see food, eating the right foods, and allowing yourself to live a little, you can literally change your life and start to live the life God created you for! You can find her on Instagram at @thisgirlaudra and also on her YouTube channel, This Girl Audra.</p>
     </div>
-      <div class="centered-block; blue-background">
+      <div class="blue-background">
           <h3 style="text-align:center;">Still not sure?</h3>
           <h1 style="line-height: 100%; font-size: 30px"><em>Scripture, Food and Healing</em> is 100% guaranteed.</h1>
             <img style= "height:300px; width: 300px; display: block; margin: 0 auto;" src="http://maddymoon.com/wp-content/uploads/2015/03/guarantee-e1446133436894.png">
@@ -291,13 +303,29 @@
               <p style= "text-align:center; font-size: 17px">Yup, you heard me! There is absolutely no risk in signing up for this course because I <em>refuse</em> to take money that I did not rightfully earn.</p>
               <p style= "text-align:center; font-size: 17px">So, if you feel God is calling you to learn about what He has to say about body respect, self-care, food, and movement...join now!</p>
       </div>
-      <div class="centered-block; text-align: center;">
+      <div style="text-align: center;">
         <h2><em>Ready to have a MAJOR change in heart?</em></h2>
-        <h3>Join now and receive $200 off <em>Scripture, Food and Healing</em> join below before the doors close November 22nd.</h3>
-          <a href="http://maddymoon.com/register/scripture-food-and-healing/" class="button">I'm ready</a>
-        <h2><em>Your questions answered</em></h2>
-            <p>Q: Are you a psychologist, counselor, doctor, therapist or registered nutritionist?</p>
+        <h3>Join now and receive $200 off <em>Scripture, Food and Healing</em> join below before the doors close November 22nd.</h3><br>
+        <div>
+          <a class="im-ready-button button button--nuka button--round-s button--text-thick" href="http://maddymoon.com/register/scripture-food-and-healing/" class="button">Yes, I'm in!</a><br>
+        </div>
+        <h2>Have questions?</h2>
+        <div id="questions" data-collapse>
+          <h3>Q: Are you a psychologist, counselor, doctor, therapist or registered nutritionist?</h3>
+          <div>Yes, bitch</div>
+          <h3>Can we make cookies?</h3>
+          <div>No</div>
+          <h3>Q: Are you a psychologist, counselor, doctor, therapist or registered nutritionist?</h3>
+          <div>Yes, bitch</div>
+          <h3>Can we make cookies?</h3>
+          <div>No</div>
+          <h3>Q: Are you a psychologist, counselor, doctor, therapist or registered nutritionist?</h3>
+          <div>Yes, bitch</div>
+          <h3>Can we make cookies?</h3>
+          <div>No</div>
       </div>
     </div>
   </body>
+  <script>
+  </script>
 </html>
