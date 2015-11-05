@@ -65,6 +65,12 @@ ul li { margin-top: 25px;font-size: 20px}
   width: 800px;
 }
 
+.sfh-ipad {
+  display: block;
+  height: 524px;
+  margin: 40px auto 40px auto;
+}
+
 .lavender {
   background-color: #eddff0;
   background-repeat: repeat;
