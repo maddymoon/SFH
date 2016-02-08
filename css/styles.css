@@ -58,6 +58,14 @@ ul.arrow li i {
 
 ul li { margin-top: 25px;font-size: 20px}
 
+.my-left-image {
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin-right: 20px;
+    padding-top: 30px;
+}
+
 .sfh-laptop {
   display: block;
   height: 496px;
